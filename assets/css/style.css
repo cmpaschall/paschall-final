@@ -1,0 +1,52 @@
+body {
+  background-color: #228B22;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  color: black;
+}
+
+h1 {
+    text-align: center;
+    color: Black;
+    font-size: 85px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightgreen;
+}
+
+section.intro {
+  text-align: center;
+  font-size: 45px;
+}
+section.data, section.data-viz, section.video-ex, section.video {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:
+}
+@media screen and (max-width: 1000px) {
+  section.data, section.data-viz, section.video-ex, section.video {
+    grid-template-columns: 1fr;
+  }
+}
